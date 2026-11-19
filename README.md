@@ -1,5 +1,8 @@
 # Prova-B2---Sistemas-Distribui-dos
 
+Aluno: Rafael Felipe Zambeli
+5º Semestre
+
 Evidencia - 1 - Primeira saída no terminal
 
 PS C:\Users\aluno\Desktop\simulado_distribuidos> python central_pedidos.py
