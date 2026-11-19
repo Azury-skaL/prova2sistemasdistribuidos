@@ -1,6 +1,7 @@
 # Prova-B2---Sistemas-Distribui-dos
 
 Aluno: Rafael Felipe Zambeli
+Professora: Simone Tatiane do Canto
 5º Semestre
 
 Evidencia - 1 - Primeira saída no terminal
@@ -83,3 +84,6 @@ A sincronização deve acontecer depois de cada pedido ser processado, pois prim
 
 Conclusão:
 Nessa prova eu aprendi a montar e fazer as devidas manutenções em um sistema de comércio eletrônico que utiliza um sistema para controlar o processamento de pedidos, onde um havia um servidor e uma réplica para manter cópias das informações.
+
+
+Aluno: Rafael Felipe Zambeli
