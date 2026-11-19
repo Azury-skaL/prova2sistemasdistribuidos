@@ -81,3 +81,5 @@ O Lock serve para permitir que apenas uma thread por vez altere o estoque, evita
 Questão 5. Considerando a sequência de eventos, a sincronização do estoque deve acontecer antes ou depois do processamento dos pedidos? Explique a relação de causalidade.
 A sincronização deve acontecer depois de cada pedido ser processado, pois primeiro o estoque do servidor principal é atualizado e depois esse novo valor é enviado para a réplica.
 
+Conclusão:
+Nessa prova eu aprendi a montar e fazer as devidas manutenções em um sistema de comércio eletrônico que utiliza um sistema para controlar o processamento de pedidos, onde um havia um servidor e uma réplica para manter cópias das informações.
