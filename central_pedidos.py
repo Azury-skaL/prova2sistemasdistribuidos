@@ -43,10 +43,11 @@ def consultar_estoque():
     if principal["online"]:
         return "PRINCIPAL", principal["estoque"]
 
-    if replica["online"]:
+    elif replica["online"]:
         return "REPLICA", replica["estoque"]
 
-    return "INDISPONIVEL", None
+    else:
+        return "INDISPONIVEL", None
 
 
 print("=== CENTRAL DE PEDIDOS ===")
