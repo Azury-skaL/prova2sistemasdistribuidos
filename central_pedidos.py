@@ -17,7 +17,7 @@ replica = {
 pedidos_confirmados = []
 
 # Controle de concorrência
-MAXIMO_SIMULTANEO = 3
+MAXIMO_SIMULTANEO = 2
 
 semaforo = threading.Semaphore(MAXIMO_SIMULTANEO)
 TRAVA = threading.Lock()
@@ -31,6 +31,8 @@ def processar_pedido(numero):
             if principal["estoque"] > 0:
                 principal["estoque"] -= 1
                 pedidos_confirmados.append(numero)
+
+                sincronizar()
 
 
 def sincronizar():
@@ -84,7 +86,6 @@ print("Réplica antes:",
     
     )
 
-sincronizar()
 
 print("Réplica depois:",
       
